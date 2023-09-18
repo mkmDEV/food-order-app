@@ -1,0 +1,29 @@
+$color_1: white;
+$background-color_1: #8a2b06;
+$background-color_2: #641e03;
+$border-color_1: #641e03;
+
+.form {
+  text-align: right;
+
+  button {
+    font: inherit;
+    cursor: pointer;
+    background-color: $background-color_1;
+    border: 1px solid #8a2b06;
+    color: $color_1;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $background-color_2;
+      border-color: $border-color_1;
+    }
+
+    &:active {
+      background-color: $background-color_2;
+      border-color: $border-color_1;
+    }
+  }
+}
